@@ -134,7 +134,7 @@ export default function Login() {
         transition={{ duration: 3 }}
         className="login__body"
       >
-        <h1>LOGIN</h1>
+        <h1 className="">LOGIN</h1>
         <form onSubmit={onSubmitForm} className="login__form">
           <div>
             <label htmlFor="email">EMAIL</label>
