@@ -1,0 +1,27 @@
+.header {
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header__body {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.logout_button {
+  margin-left: auto;
+  width: 80px;
+  height: 30px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}

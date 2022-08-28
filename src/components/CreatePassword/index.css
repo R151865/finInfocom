@@ -1,0 +1,143 @@
+.create-password {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.password_create_success {
+  background-color: rgba(0, 0, 0, 0.651);
+  color: white;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: grid;
+  place-items: center;
+  z-index: 10;
+  position: absolute;
+}
+
+.password_create_success > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.password_create_success > div > p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.password_create_success > div > button {
+  height: 40px;
+  width: 150px;
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  margin-top: 30px;
+  margin-left: auto;
+}
+
+.create_password__body {
+  padding: 20px;
+  background-color: wheat;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.email_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.email_section > input {
+  height: 50px;
+  width: 70%;
+  padding-left: 10px;
+}
+
+.email_section > button {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.otp_section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.otp_section > label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.otp_section > input {
+  margin-top: 5px;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.create_password__button {
+  height: 50px;
+  margin-top: 30px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.otp_note {
+  background-color: green;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  color: white;
+}
+
+.verify_otp_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.verify_otp_button {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.verified_otp_button {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background-color: green;
+}
+
+.verify_otp_section > div {
+  display: flex;
+  align-items: center;
+}
+
+.verify_otp_section > div > input {
+  height: 50px;
+  width: 100px;
+  padding-left: 20px;
+}

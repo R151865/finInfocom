@@ -1,0 +1,87 @@
+.register {
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+.register__body {
+  width: 90%;
+  max-width: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.register__body > h1 {
+  margin: auto;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.register__form {
+  background-color: wheat;
+
+  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+}
+
+.register__form > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.register__form > div > label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.register__form > div > input {
+  height: 40px;
+  margin-top: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+  outline-color: orange;
+  border: 0;
+  border-radius: 4px;
+}
+
+.register-button {
+  background-color: blue;
+  height: 45px;
+  width: 100%;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+}
+
+.register_errorMsg {
+  color: red;
+  margin-top: 3px;
+  font-size: small;
+  line-height: 13px;
+}
+
+.register__loader {
+  display: grid;
+  place-items: center;
+}
+
+.register_btmSec {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.already_have_account_btn {
+  background-color: transparent;
+  margin-top: 5px;
+  border: 0;
+  margin-left: auto;
+}
