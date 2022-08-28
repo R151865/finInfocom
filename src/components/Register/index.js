@@ -8,15 +8,6 @@ import { useNavigate } from "react-router-dom";
 
 import "./index.css";
 
-const sampData = {
-  email: "venkatesh.m@fininfocom.com",
-  fullName: "Venkatesh M",
-  mobile: 9041551553,
-  image:
-    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAAA8AXHiAAABDElEQVR42u3SMQEAAAgDoJnc6FrA0xMyUJl04FmJhViIhVhiIRZiIRaIhViIBWIhFmKBWIiFWCAWYiEWiIVYiAViIRZigViIhVggFmIhFoiFWIgFYiEWYoFYiIVYIBZiIRaIhViIBWIhFmKBWIiFWCAWYiEWiIVYiAViIRZigViIhVggFmIhFoiFWIgFYiEWYoFYiIVYIBZiIRaIhViIBWIhFmKBWIiFWIglFmIhFmKBWIiFWCAWYiEWiIVYiAViIRZigViIhVggFmIhFoiFWIgFYiEWYoFYiIVYIBZiIRaIhViIBWIhFmKBWIiFWCAWYiEWiIVYiAViIRZigViIhVggFmIhFoiFWIgFtwUbHOBr8Qik0gAAAABJRU5ErkJggg==",
-  tandcAccepted: true,
-};
-
 export default function Register() {
   const navigate = useNavigate();
 

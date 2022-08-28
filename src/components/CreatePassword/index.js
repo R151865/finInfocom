@@ -2,7 +2,7 @@ import HOST from "../../constants/host";
 
 import "./index.css";
 import { useState } from "react";
-import { motion, transform } from "framer-motion";
+import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
 export default function CreatePassword() {
